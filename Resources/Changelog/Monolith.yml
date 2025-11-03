@@ -13635,3 +13635,10 @@ Entries:
   id: 1508
   time: '2025-11-02T16:34:21.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2540
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: The Rhea has been updated and upgraded! Go give it a look!
+  id: 1509
+  time: '2025-11-03T16:25:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2366
