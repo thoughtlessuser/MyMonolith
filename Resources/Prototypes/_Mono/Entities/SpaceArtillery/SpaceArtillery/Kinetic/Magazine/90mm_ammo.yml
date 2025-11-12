@@ -1,10 +1,13 @@
+# SPDX-FileCopyrightText: 2025 Ark
+# SPDX-FileCopyrightText: 2025 Ilya246
+# SPDX-FileCopyrightText: 2025 kasature90
 # SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: MPL-2.0
 
 - type: entity
   id: Magazine90mm
-  name: "90x427mm HEAT ammo drum"
+  name: "90x427mm APHE ammo drum"
   parent: [BaseItem, RecyclableItemSteelTiny]
   components:
   - type: Tag
@@ -13,6 +16,7 @@
   - type: Item
     size: Small
   - type: BallisticAmmoProvider
+    infiniteUnspawned: true
     proto: 90mmCartridge
     capacity: 400
     mayTransfer: true
@@ -37,7 +41,7 @@
 
 - type: entity
   id: 90mmCartridge
-  name: cartridge (90x427mm HEAT)
+  name: cartridge (90x427mm APHE)
   parent: [ BaseCartridge, BaseC1Contraband ]
   components:
   - type: Tag
@@ -65,3 +69,20 @@
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
+
+- type: entity
+  id: Magazine90mmWeak
+  name: "90x427mm ammo drum"
+  parent: Magazine90mm
+  components:
+  - type: BallisticAmmoProvider
+    infiniteUnspawned: true
+    proto: 90mmCartridgeWeak
+
+- type: entity
+  id: 90mmCartridgeWeak
+  name: "cartridge (90x427mm)"
+  parent: 90mmCartridge
+  components:
+  - type: CartridgeAmmo
+    proto: 90mmBulletWeak
