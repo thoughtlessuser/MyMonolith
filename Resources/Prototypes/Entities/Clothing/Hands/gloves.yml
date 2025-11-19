@@ -272,6 +272,17 @@
     fiberMaterial: fibers-insulative
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.95 # *grabs ur baton* nice knife
+  # mono noise
+  - type: MeleeWeapon
+    autoAttack: true
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 0.5
+    soundHit:
+      collection: CartoonSlap
+    heavyStaminaCost: 0
+  # mono noise end
 
 # can't parent combat gloves since they are butcherable
 - type: entity
