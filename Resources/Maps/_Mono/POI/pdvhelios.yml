@@ -1,32 +1,11 @@
-# SPDX-FileCopyrightText: 2023 Cheackraze
-# SPDX-FileCopyrightText: 2023 Checkraze
-# SPDX-FileCopyrightText: 2023 Vera Aguilera Puerto
-# SPDX-FileCopyrightText: 2024 Dvir
-# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
-# SPDX-FileCopyrightText: 2024 TsjipTsjip
-# SPDX-FileCopyrightText: 2024 checkraze
-# SPDX-FileCopyrightText: 2025 Arcticular
-# SPDX-FileCopyrightText: 2025 Ark
-# SPDX-FileCopyrightText: 2025 Avalon
-# SPDX-FileCopyrightText: 2025 Cojoke
-# SPDX-FileCopyrightText: 2025 Honestly101
-# SPDX-FileCopyrightText: 2025 Redrover1760
-# SPDX-FileCopyrightText: 2025 RikuTheKiller
-# SPDX-FileCopyrightText: 2025 Whatstone
-# SPDX-FileCopyrightText: 2025 core-mene
-# SPDX-FileCopyrightText: 2025 starch
-# SPDX-FileCopyrightText: 2025 thoughtlessuser
-#
-# SPDX-License-Identifier: MPL-2.0
-
 meta:
   format: 7
   category: Grid
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/20/2025 00:52:31
-  entityCount: 9377
+  time: 11/21/2025 21:46:13
+  entityCount: 9390
 maps: []
 grids:
 - 1
@@ -4319,17 +4298,18 @@ entities:
           0,12:
             0: 60942
           1,9:
-            0: 20222
+            0: 19710
+            5: 512
           1,10:
             0: 65390
-            5: 128
+            6: 128
           1,11:
             0: 62719
           1,8:
             0: 61024
           1,12:
             0: 4351
-            6: 32768
+            7: 32768
           2,9:
             0: 3003
           2,10:
@@ -4338,7 +4318,7 @@ entities:
             0: 64733
           2,12:
             0: 52479
-            6: 4096
+            7: 4096
           3,10:
             0: 52479
           3,11:
@@ -4441,7 +4421,7 @@ entities:
             0: 36863
           1,13:
             0: 4401
-            6: 52428
+            7: 52428
           1,14:
             0: 65520
           1,15:
@@ -4449,7 +4429,7 @@ entities:
           1,16:
             0: 64911
           2,13:
-            6: 4369
+            7: 4369
             0: 52416
           2,14:
             0: 56796
@@ -4708,6 +4688,25 @@ entities:
           moles:
           - 21.824879
           - 82.10312
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -6303,7 +6302,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -25190.338
+      secondsUntilStateChange: -27065.826
       state: Opening
   - uid: 163
     components:
@@ -6542,7 +6541,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -25024.004
+      secondsUntilStateChange: -26899.492
       state: Opening
     - type: Docking
       name: PDV-A3
@@ -26191,6 +26190,94 @@ entities:
     - type: Transform
       pos: 13.35905,16.593409
       parent: 1
+- proto: ClothingNeckBronzeheart
+  entities:
+  - uid: 2738
+    components:
+    - type: MetaData
+      desc: Only granted those with the hardiest will and the greatest sense of purpose in the face of sacrifice.
+      name: talisman of fortem
+    - type: Transform
+      parent: 2126
+    - type: Physics
+      canCollide: False
+- proto: ClothingNeckCargomedal
+  entities:
+  - uid: 2732
+    components:
+    - type: MetaData
+      desc: A medal supplied to the one responsible for the Vanguard's wealth for the Sultan's benefit.
+      name: talisman of valorem
+    - type: Transform
+      parent: 2126
+    - type: Physics
+      canCollide: False
+- proto: ClothingNeckClownmedal
+  entities:
+  - uid: 2252
+    components:
+    - type: MetaData
+      desc: A reward to those capable of setting embers ablaze into fires in the hearts of the Vanguard.
+      name: talisman of morale
+    - type: Transform
+      parent: 2126
+    - type: Physics
+      canCollide: False
+- proto: ClothingNeckEngineermedal
+  entities:
+  - uid: 2742
+    components:
+    - type: MetaData
+      desc: Handed down by the Grand Vizier to those with depths of experience to provide to the Sultan's might.
+      name: talisman of sensus
+    - type: Transform
+      parent: 2126
+    - type: Physics
+      canCollide: False
+- proto: ClothingNeckGoldmedal
+  entities:
+  - uid: 2232
+    components:
+    - type: MetaData
+      desc: For exemplary show of leadership in the line of duty.
+      name: talisman of principality
+    - type: Transform
+      parent: 2126
+    - type: Physics
+      canCollide: False
+- proto: ClothingNeckMedicalmedal
+  entities:
+  - uid: 2234
+    components:
+    - type: MetaData
+      desc: Denotes the fierce desire to keep the Vanguard in top shape to serve the Sultan.
+      name: talisman of empath
+    - type: Transform
+      parent: 2126
+    - type: Physics
+      canCollide: False
+- proto: ClothingNeckSciencemedal
+  entities:
+  - uid: 2249
+    components:
+    - type: MetaData
+      desc: The wearer's mind is a spear into the unknown. Providing leaps in scientific progress.
+      name: talisman of intellect
+    - type: Transform
+      parent: 2126
+    - type: Physics
+      canCollide: False
+- proto: ClothingNeckSecuritymedal
+  entities:
+  - uid: 2251
+    components:
+    - type: MetaData
+      desc: Granted by the Vizier for those with respect for the line of command and the Sultan's reign.
+      name: talisman of order
+    - type: Transform
+      parent: 2126
+    - type: Physics
+      canCollide: False
 - proto: ClothingOuterBioJanitor
   entities:
   - uid: 1077
@@ -32075,7 +32162,7 @@ entities:
       pos: -18.5,22.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -33276.266
+      secondsUntilStateChange: -35151.754
       state: Closing
   - uid: 8050
     components:
@@ -43179,11 +43266,6 @@ entities:
     - type: Transform
       pos: 4.5,85.5
       parent: 1
-  - uid: 2126
-    components:
-    - type: Transform
-      pos: -4.5,55.5
-      parent: 1
   - uid: 2127
     components:
     - type: Transform
@@ -43564,20 +43646,10 @@ entities:
     - type: Transform
       pos: 13.5,51.5
       parent: 1
-  - uid: 2232
-    components:
-    - type: Transform
-      pos: -6.5,43.5
-      parent: 1
   - uid: 2233
     components:
     - type: Transform
       pos: -5.5,43.5
-      parent: 1
-  - uid: 2234
-    components:
-    - type: Transform
-      pos: -4.5,43.5
       parent: 1
   - uid: 2235
     components:
@@ -43639,25 +43711,10 @@ entities:
     - type: Transform
       pos: 7.5,30.5
       parent: 1
-  - uid: 2249
-    components:
-    - type: Transform
-      pos: 12.5,23.5
-      parent: 1
   - uid: 2250
     components:
     - type: Transform
       pos: 15.5,21.5
-      parent: 1
-  - uid: 2251
-    components:
-    - type: Transform
-      pos: 15.5,20.5
-      parent: 1
-  - uid: 2252
-    components:
-    - type: Transform
-      pos: 15.5,18.5
       parent: 1
   - uid: 2253
     components:
@@ -45389,6 +45446,36 @@ entities:
         5063:
         - - Pressed
           - Toggle
+        9379:
+        - - Pressed
+          - Toggle
+        3889:
+        - - Pressed
+          - Toggle
+        3472:
+        - - Pressed
+          - Toggle
+        2890:
+        - - Pressed
+          - Toggle
+        3890:
+        - - Pressed
+          - Toggle
+        2889:
+        - - Pressed
+          - Toggle
+        9389:
+        - - Pressed
+          - Toggle
+        9390:
+        - - Pressed
+          - Toggle
+        9388:
+        - - Pressed
+          - Toggle
+        9387:
+        - - Pressed
+          - Toggle
 - proto: LockerBoozeFilled
   entities:
   - uid: 1726
@@ -45465,8 +45552,9 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 7576
+          - 2126
           - 3993
+          - 7576
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -45700,6 +45788,55 @@ entities:
     - type: Transform
       pos: 7.5,86.5
       parent: 1
+- proto: MedalCase
+  entities:
+  - uid: 2126
+    components:
+    - type: Transform
+      parent: 2371
+    - type: Storage
+      storedItems:
+        2232:
+          position: 0,0
+          _rotation: South
+        2234:
+          position: 1,0
+          _rotation: South
+        2249:
+          position: 2,0
+          _rotation: South
+        2251:
+          position: 3,0
+          _rotation: South
+        2252:
+          position: 4,0
+          _rotation: South
+        2732:
+          position: 5,0
+          _rotation: South
+        2738:
+          position: 6,0
+          _rotation: South
+        2742:
+          position: 7,0
+          _rotation: South
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 2232
+          - 2234
+          - 2249
+          - 2251
+          - 2252
+          - 2732
+          - 2738
+          - 2742
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: MedicalBed
   entities:
   - uid: 1263
@@ -48145,11 +48282,40 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 20.5,36.5
       parent: 1
+  - uid: 2889
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 15.5,23.5
+      parent: 1
+  - uid: 2890
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 20.5,51.5
+      parent: 1
+  - uid: 3472
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 13.5,40.5
+      parent: 1
   - uid: 3614
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 11.5,57.5
+      parent: 1
+  - uid: 3889
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -6.5,56.5
+      parent: 1
+  - uid: 3890
+    components:
+    - type: Transform
+      pos: 17.5,55.5
       parent: 1
   - uid: 4095
     components:
@@ -48482,6 +48648,36 @@ entities:
     components:
     - type: Transform
       pos: 14.5,16.5
+      parent: 1
+  - uid: 9379
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -9.5,64.5
+      parent: 1
+  - uid: 9387
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -10.5,40.5
+      parent: 1
+  - uid: 9388
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -9.5,40.5
+      parent: 1
+  - uid: 9389
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 18.5,16.5
+      parent: 1
+  - uid: 9390
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -21.5,24.5
       parent: 1
 - proto: PoweredWarmSmallLight
   entities:
@@ -49416,11 +49612,6 @@ entities:
     - type: Transform
       pos: 11.5,23.5
       parent: 1
-  - uid: 2732
-    components:
-    - type: Transform
-      pos: 12.5,23.5
-      parent: 1
   - uid: 2733
     components:
     - type: Transform
@@ -49446,11 +49637,6 @@ entities:
     - type: Transform
       pos: 15.5,21.5
       parent: 1
-  - uid: 2738
-    components:
-    - type: Transform
-      pos: 15.5,18.5
-      parent: 1
   - uid: 2740
     components:
     - type: Transform
@@ -49460,11 +49646,6 @@ entities:
     components:
     - type: Transform
       pos: 16.5,22.5
-      parent: 1
-  - uid: 2742
-    components:
-    - type: Transform
-      pos: 15.5,20.5
       parent: 1
   - uid: 2743
     components:
@@ -50360,6 +50541,28 @@ entities:
     - type: Transform
       pos: 5.5,38.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: Table
   entities:
   - uid: 2830
@@ -50743,22 +50946,12 @@ entities:
   - uid: 2887
     components:
     - type: Transform
-      pos: -4.5,55.5
+      pos: -5.5,55.5
       parent: 1
   - uid: 2888
     components:
     - type: Transform
       pos: -6.5,55.5
-      parent: 1
-  - uid: 2889
-    components:
-    - type: Transform
-      pos: -1.5,54.5
-      parent: 1
-  - uid: 2890
-    components:
-    - type: Transform
-      pos: -5.5,55.5
       parent: 1
   - uid: 2891
     components:
@@ -50809,6 +51002,11 @@ entities:
     components:
     - type: Transform
       pos: 9.5,62.5
+      parent: 1
+  - uid: 9378
+    components:
+    - type: Transform
+      pos: -1.5,54.5
       parent: 1
 - proto: ToiletDirtyWater
   entities:
@@ -52815,11 +53013,6 @@ entities:
     components:
     - type: Transform
       pos: 0.5,55.5
-      parent: 1
-  - uid: 3019
-    components:
-    - type: Transform
-      pos: -3.5,54.5
       parent: 1
   - uid: 3020
     components:
@@ -54993,11 +55186,6 @@ entities:
     - type: Transform
       pos: -0.5,63.5
       parent: 1
-  - uid: 3472
-    components:
-    - type: Transform
-      pos: -0.5,61.5
-      parent: 1
   - uid: 3473
     components:
     - type: Transform
@@ -56882,20 +57070,10 @@ entities:
     - type: Transform
       pos: -2.5,72.5
       parent: 1
-  - uid: 3882
-    components:
-    - type: Transform
-      pos: -0.5,59.5
-      parent: 1
   - uid: 3883
     components:
     - type: Transform
       pos: -7.5,58.5
-      parent: 1
-  - uid: 3884
-    components:
-    - type: Transform
-      pos: -0.5,60.5
       parent: 1
   - uid: 3885
     components:
@@ -56916,16 +57094,6 @@ entities:
     components:
     - type: Transform
       pos: -7.5,46.5
-      parent: 1
-  - uid: 3889
-    components:
-    - type: Transform
-      pos: -0.5,58.5
-      parent: 1
-  - uid: 3890
-    components:
-    - type: Transform
-      pos: -6.5,58.5
       parent: 1
   - uid: 3891
     components:
@@ -57055,7 +57223,7 @@ entities:
   - uid: 3918
     components:
     - type: Transform
-      pos: -3.5,55.5
+      pos: -6.5,58.5
       parent: 1
   - uid: 3919
     components:
@@ -60241,8 +60409,58 @@ entities:
     - type: Transform
       pos: 3.5,82.5
       parent: 1
+  - uid: 9380
+    components:
+    - type: Transform
+      pos: -0.5,58.5
+      parent: 1
+  - uid: 9381
+    components:
+    - type: Transform
+      pos: -0.5,61.5
+      parent: 1
+  - uid: 9382
+    components:
+    - type: Transform
+      pos: -0.5,59.5
+      parent: 1
+  - uid: 9383
+    components:
+    - type: Transform
+      pos: -0.5,60.5
+      parent: 1
+  - uid: 9384
+    components:
+    - type: Transform
+      pos: -3.5,54.5
+      parent: 1
+  - uid: 9385
+    components:
+    - type: Transform
+      pos: -4.5,55.5
+      parent: 1
+  - uid: 9386
+    components:
+    - type: Transform
+      pos: -3.5,55.5
+      parent: 1
 - proto: WallReinforced
   entities:
+  - uid: 3019
+    components:
+    - type: Transform
+      pos: 12.5,23.5
+      parent: 1
+  - uid: 3882
+    components:
+    - type: Transform
+      pos: 15.5,18.5
+      parent: 1
+  - uid: 3884
+    components:
+    - type: Transform
+      pos: 15.5,20.5
+      parent: 1
   - uid: 4308
     components:
     - type: Transform
