@@ -409,6 +409,24 @@
 
 - type: entity
   parent: PiratePDA
+  id: PirateBoatswainPDA
+  name: PDV Denasvar PDA
+  components:
+  - type: Pda
+    id: PDVDenasvarIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-cargo-assistant
+  - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
+    attachedToSuit: true # Mono
+
+- type: entity
+  parent: PiratePDA
   id: PirateCaptainNFPDA
   name: PDV grand vizier PDA
   components:

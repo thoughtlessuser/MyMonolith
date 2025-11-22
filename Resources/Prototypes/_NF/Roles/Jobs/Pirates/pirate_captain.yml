@@ -24,9 +24,6 @@
     - !type:RoleTimeRequirement
       role: JobPirateFirstMate
       time: 3600 # 1 hour
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 36000 # 10 hours # mono end
   whitelisted: true
   startingGear: PirateCaptainNFGear
   alwaysUseSpawner: true
@@ -47,9 +44,6 @@
   special:
   - !type:AddComponentSpecial
     components:
-    - type: MailDisabled
-    - type: SpecialSectorStationRecord
-      recordGeneration: FalseRecord
     - type: NpcFactionMember
       factions:
       - PirateNF

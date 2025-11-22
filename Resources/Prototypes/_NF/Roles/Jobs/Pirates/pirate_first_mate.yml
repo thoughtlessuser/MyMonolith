@@ -19,11 +19,8 @@
     - !type:OverallPlaytimeRequirement
       time: 180000 # 50 hours # mono
     - !type:RoleTimeRequirement
-      role: JobPirate
-      time: 72000 # 20 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 18000 # 5 hours # mono
+      role: JobPirateBoatswain
+      time: 28800 # 8 hours
   #whitelisted: true # mono - comment out
   startingGear: PirateFirstMateNFGear
   alwaysUseSpawner: true
@@ -43,9 +40,6 @@
   special:
   - !type:AddComponentSpecial
     components:
-    - type: MailDisabled
-    - type: SpecialSectorStationRecord
-      recordGeneration: FalseRecord
     - type: NpcFactionMember
       factions:
       - PirateNF

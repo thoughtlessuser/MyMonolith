@@ -21,3 +21,9 @@
   price: 0
   equipment:
     id: PDVSpasakaPDA
+
+- type: loadout
+  id: PirateBoatswainPirateBoatswainPDA
+  price: 0
+  equipment:
+    id: PirateBoatswainPDA

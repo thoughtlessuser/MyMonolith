@@ -6,31 +6,31 @@
 # SPDX-FileCopyrightText: 2025 LukeZurg22
 # SPDX-FileCopyrightText: 2025 Redrover1760
 # SPDX-FileCopyrightText: 2025 ScyronX
-# SPDX-FileCopyrightText: 2025 kasature90
-# SPDX-FileCopyrightText: 2025 significant harassment
-# SPDX-FileCopyrightText: 2025 sleepyyapril
 # SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  id: Pirate
-  name: job-name-pirate
-  description: job-description-pirate
-  playTimeTracker: JobPirate
+  id: PirateFirstBoatswain
+  name: job-name-pirate-boatswain
+  description: job-description-pirate-boatswain
+  playTimeTracker: JobPirateBoatswain
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 72000 # 20 hrs - mono
-  startingGear: PirateNFGear
+      time: 180000 # 50 hours # mono
+    - !type:RoleTimeRequirement
+      role: JobPirate
+      time: 90000 # 25 hours
+  startingGear: PirateBoatswainGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
   canBeAntag: true
-  icon: "JobIconPirate"
-  supervisors: job-supervisors-pirate
-  weight: 20
-  displayWeight: 20
+  icon: "JobIconPirateBoatswain"
+  supervisors: job-supervisors-pirate-boatswain
+  weight: 30
+  displayWeight: 30
   setPreference: true
-  guides: [ BasicLore, PhaethonDynasty ] # Mono
+  guides: [ BasicLore, PhaethonDynasty] # Mono
   access:
   - Pirate
   - Mercenary
@@ -54,7 +54,7 @@
     prototype: FrontierBirthdayGift
 
 - type: startingGear
-  id: PirateNFGear
+  id: PirateBoatswainGear
   equipment:
     ears: ClothingHeadsetAltFreelancer
     #belt: ClothingBeltUtility

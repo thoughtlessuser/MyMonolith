@@ -97,3 +97,26 @@
   - RogueFirearm
   - RogueMag
   canCustomizeName: true
+
+- type: roleLoadout
+  id: JobPirateBoatswain
+  groups:
+  - PDVHead
+  - PDVNeck
+  - PDVJumpsuit
+  - PDVGloves
+  - PDVOuterClothing
+  - PDVHud
+  - PDVBackpack
+  - PDVShoes
+  - PirateFace
+  - ContractorBoxSurvival
+  - PiratePDA
+  - ContractorWallet
+  - NFSpeciesSpecific
+  - PirateTrinkets
+  - PDVBelt
+  - ContractorEncryptionKey
+  - RogueFirearm
+  - RogueMag
+  canCustomizeName: true
