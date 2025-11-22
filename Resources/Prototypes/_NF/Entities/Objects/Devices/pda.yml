@@ -420,7 +420,7 @@
     appearanceDataInit:
       enum.PdaVisuals.PdaType:
         !type:String
-        pda-cargo-assistant
+        pda-syndi
   - type: Geiger # Mono
     showExamine: true
     showControl: true
