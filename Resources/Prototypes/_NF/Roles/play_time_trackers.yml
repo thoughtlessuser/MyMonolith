@@ -32,7 +32,7 @@
   id: JobPDVInfiltrator
 
 - type: playTimeTracker
-  id: jobPirateBoatswain
+  id: JobPirateBoatswain
 
 - type: playTimeTracker
   id: JobDirectorOfCare

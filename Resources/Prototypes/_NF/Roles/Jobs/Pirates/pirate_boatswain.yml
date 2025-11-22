@@ -11,7 +11,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  id: PirateFirstBoatswain
+  id: PirateBoatswain
   name: job-name-pirate-boatswain
   description: job-description-pirate-boatswain
   playTimeTracker: JobPirateBoatswain
