@@ -41,6 +41,7 @@
   parent: BasePDVPDA
   id: PDVDenasvarPDA
   name: PDV denasvar PDA
+  description: A PDA belonging to an imperial Denasvar.
   components:
   - type: Pda
     id: PDVDenasvarIDCard
