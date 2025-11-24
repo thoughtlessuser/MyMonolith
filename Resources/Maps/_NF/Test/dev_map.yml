@@ -7266,7 +7266,7 @@ entities:
     - type: Transform
       pos: -3.5,2.5
       parent: 179
-- proto: SpawnPointValet
+- proto: SpawnPointCCServiceWorker
   entities:
   - uid: 1346
     components:

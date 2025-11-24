@@ -29,17 +29,17 @@
   description: A personal digital assistant belonging to a service worker aboard Colossus Central. The printed label states "RETURN TO COLONIAL LIAISON IF LOST."
   components:
   - type: Pda
-    id: ValetNFIDCard # Frontier: CCServiceWorkerIDCard<CCServiceWorkerNFIDCard
+    id: CCServiceWorkerNFIDCard # Frontier: CCServiceWorkerIDCard<CCServiceWorkerNFIDCard
   - type: Appearance
     appearanceDataInit:
       enum.PdaVisuals.PdaType:
         !type:String
-        pda-intern-service
+        pda-cargo-assistant
   - type: PdaBorderColor
     borderColor: "#bdbdbd"
     accentVColor: "#8f7145"
   - type: Icon
-    state: pda-intern-service
+    state: pda-cargo-assistant
 
 - type: entity
   parent: BaseSecurityPDA

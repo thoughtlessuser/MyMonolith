@@ -23,12 +23,12 @@
       - state: prisoner
 
 - type: entity
-  id: SpawnPointValet
+  id: SpawnPointCCServiceWorker
   parent: SpawnPointJobBase
   name: valet
   components:
   - type: SpawnPoint
-    job_id: Valet
+    job_id: CCServiceWorker
   - type: Sprite
     layers:
       - state: green
