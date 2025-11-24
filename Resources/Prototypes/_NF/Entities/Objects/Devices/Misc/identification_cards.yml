@@ -201,12 +201,13 @@
     job: StationRepresentative
 
 - type: entity
-  parent: ValetIDCard
-  id: ValetNFIDCard
-  name: valet ID card
+  parent: CCServiceWorkerIDCard
+  id: CCServiceWorkerNFIDCard #Mono
+  name: colossus central service ID card
+  description: An identification card. A small note reads "IF LOST RETURN TO COLONIAL LIAISON."
   components:
   - type: PresetIdCard
-    job: Valet
+    job: ServiceWorker
   - type: Sprite
     sprite: _NF/Objects/Misc/id_cards.rsi
     layers:

@@ -27,16 +27,17 @@
 
 - type: entity
   parent: IDCardStandard
-  id: ValetIDCard
+  id: CCServiceWorkerIDCard #Mono
   categories: [ HideSpawnMenu ] # Frontier
-  name: valet ID card
+  name: colossus central ID card
+  description: An identification card. A small note reads "IF LOST RETURN TO COLONIAL LIAISON."
   components:
   - type: Sprite
     layers:
     - state: default
     - state: idintern-service
   - type: PresetIdCard
-    job: Valet
+    job: CCServiceWorker
 
 - type: entity
   parent: IDCardStandard

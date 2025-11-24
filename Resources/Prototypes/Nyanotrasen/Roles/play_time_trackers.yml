@@ -5,7 +5,7 @@
   id: JobPrisoner
 
 - type: playTimeTracker
-  id: JobValet
+  id: JobCCServiceWorker
 
 - type: playTimeTracker
   id: JobPrisonGuard

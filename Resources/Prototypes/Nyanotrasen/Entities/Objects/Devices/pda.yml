@@ -24,22 +24,22 @@
 
 - type: entity
   parent: BasePDA
-  id: ValetPDA
-  name: valet PDA
-  description: Why isn't it gray?
+  id: CCServiceWorkerPDA
+  name: Colossus central service PDA
+  description: A personal digital assistant belonging to a service worker aboard Colossus Central. The printed label states "RETURN TO COLONIAL LIAISON IF LOST."
   components:
   - type: Pda
-    id: ValetNFIDCard # Frontier: ValetIDCard<ValetNFIDCard
+    id: ValetNFIDCard # Frontier: CCServiceWorkerIDCard<CCServiceWorkerNFIDCard
   - type: Appearance
     appearanceDataInit:
       enum.PdaVisuals.PdaType:
         !type:String
-        pda-cargo-assistant
+        pda-intern-service
   - type: PdaBorderColor
     borderColor: "#bdbdbd"
     accentVColor: "#8f7145"
   - type: Icon
-    state: pda-cargo-assistant
+    state: pda-intern-service
 
 - type: entity
   parent: BaseSecurityPDA

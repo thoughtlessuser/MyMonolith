@@ -7,7 +7,7 @@
   roles:
   - StationRepresentative
   - StationTrafficController
-  - Valet # nyano
+  - ServiceWorker # nyano
   - NFJanitor
   - MailCarrier # nyano
   - SecurityGuard
