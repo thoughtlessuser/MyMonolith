@@ -208,7 +208,7 @@
   name: colossus sector service ID card
   description: An identification card belonging to a service worker in the Colossus Sector.
   components: 
- - type: PresetIdCard
+  - type: PresetIdCard
     job: ServiceWorker
   - type: Sprite
     sprite: _NF/Objects/Misc/id_cards.rsi
