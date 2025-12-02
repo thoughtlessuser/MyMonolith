@@ -17,6 +17,7 @@
   - ShipyardSabine
   - ShipyardTakeaway
   - ShipyardRuby
+  - ShipyardCaladrius
 
 - type: guideEntry
   id: ShipyardArgent
@@ -42,3 +43,8 @@
   id: ShipyardRuby
   name: guide-entry-shipyard-ruby
   text: "/ServerInfo/_Mono/Guidebook/Shipyard/Ruby.xml"
+
+- type: guideEntry
+  id: ShipyardCaladrius
+  name: guide-entry-shipyard-caladrius
+  text: "/ServerInfo/_Mono/Guidebook/Shipyard/Caladrius.xml"
