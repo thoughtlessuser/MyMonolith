@@ -7495,11 +7495,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -2.5,11.5
       parent: 1
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 1385
     - type: AtmosPipeLayers
       pipeLayer: Secondary
   - uid: 649
