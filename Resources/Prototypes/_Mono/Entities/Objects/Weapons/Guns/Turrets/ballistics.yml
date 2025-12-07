@@ -1,5 +1,3 @@
-# Base Heavy Turret
-
 - type: entity
   id: BallisticTurretHeavyBase
   parent: BaseWeaponTurret
