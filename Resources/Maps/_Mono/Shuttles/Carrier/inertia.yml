@@ -48,7 +48,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: grid
+      name: inertia
     - type: Transform
       pos: 21.79634,28.27105
       parent: invalid

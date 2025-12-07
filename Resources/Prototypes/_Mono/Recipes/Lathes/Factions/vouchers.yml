@@ -143,3 +143,17 @@
     Uranium: 10000
     Silver: 5000
     Gold: 5000
+
+- type: latheRecipe
+  parent: BaseVoucherRecipe
+  id: MotleyAnneVoucherRogue
+  result: ShipVoucherMotleyAnne
+  materials:
+    Steel: 50000
+    Plasteel: 25000
+    Plastic: 10000
+    Glass: 5000
+    Plasma: 5000
+    Uranium: 5000
+    Silver: 5000
+    Gold: 5000

@@ -8,7 +8,7 @@
 - type: vessel
   id: Inertia
   parent: BaseVesselAntag
-  name: IED-PDV Interceptor Fighter 'Inertia'
+  name: IED Interceptor Fighter 'Inertia'
   description: A fighter equipped with high mobility and two RAC-30 Draupnirs for shooting down artillery fire.
   price: 15000
   category: Small
@@ -17,6 +17,7 @@
   shuttlePath: /Maps/_Mono/Shuttles/Carrier/inertia.yml
   guidebookPage: Null
   class:
+  - Fighter
   - Pursuit
   engine:
   - APU

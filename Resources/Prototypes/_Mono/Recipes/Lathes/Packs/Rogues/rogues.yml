@@ -31,7 +31,8 @@
   recipes:
   - ProwlerVoucherRogue
   - SaintieVoucherRogue
-
+  - MotleyAnneVoucherRogue
+  
 - type: latheRecipePack
   id: MonoRogueMiscDynamic
   recipes:

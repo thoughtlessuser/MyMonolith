@@ -31,7 +31,20 @@
   - SaintieVoucherRogue
   technologyPrerequisites:
   - UniversalMaterialResearchT2
-  position: 22, 5
+  position: 22, 4
+
+- type: technology
+  id: RogueDockyard
+  name: research-technology-rogue-motley-anne-voucher
+  entityIcon: ShipVoucherMotleyAnne
+  discipline: RogueShipyard
+  tier: 1
+  cost: 40500
+  recipeUnlocks:
+  - MotleyAnneVoucherRogue
+  technologyPrerequisites:
+  - UniversalMaterialResearchT2
+  position: 22, 6
 
 - type: technology
   id: RogueJaws
