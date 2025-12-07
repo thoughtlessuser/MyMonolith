@@ -16,9 +16,6 @@
     factions:
     - MD
 
-# Mono End
-
->>>>>>> 7bd0d0ed8ef228c33df3f4f86d2d452037f87081
 - type: entity
   parent: [BaseWeaponBallisticTurret, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponTurretSyndicate
