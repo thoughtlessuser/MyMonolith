@@ -27042,50 +27042,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 8.5,85.5
       parent: 1
-<<<<<<< HEAD
-  - uid: 2701
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 8.5,86.5
-      parent: 1
-  - uid: 2722
-    components:
-    - type: Transform
-      pos: 7.5,85.5
-      parent: 1
-- proto: CrateAmmoBox20mm
-  entities:
-  - uid: 1760
-    components:
-    - type: Transform
-      pos: -16.5,13.5
-      parent: 1
-  - uid: 1761
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 1
-  - uid: 1762
-    components:
-    - type: Transform
-      pos: -15.5,14.5
-      parent: 1
-  - uid: 1763
-    components:
-    - type: Transform
-      pos: -15.5,13.5
-      parent: 1
-- proto: CrateAmmoBox90mm
-  entities:
-  - uid: 95
-    components:
-    - type: Transform
-      pos: -14.5,14.5
-      parent: 1
-=======
->>>>>>> 141d50d63e7d867d99ad7295c505d97c442796b4
-- proto: CrateAmmoBoxCharon
   entities:
   - uid: 1766
     components:
@@ -27097,38 +27053,6 @@ entities:
     - type: Transform
       pos: -13.5,15.5
       parent: 1
-<<<<<<< HEAD
-- proto: CrateAmmoBoxCyrexa
-  entities:
-  - uid: 1768
-    components:
-    - type: Transform
-      pos: -12.5,14.5
-      parent: 1
-  - uid: 1769
-    components:
-    - type: Transform
-      pos: -13.5,14.5
-      parent: 1
-- proto: CrateAmmoBoxKargil
-  entities:
-  - uid: 1770
-    components:
-    - type: Transform
-      pos: -17.5,13.5
-      parent: 1
-  - uid: 1771
-    components:
-    - type: Transform
-      pos: -17.5,14.5
-      parent: 1
-  - uid: 7962
-    components:
-    - type: Transform
-      pos: -14.5,13.5
-      parent: 1
-=======
->>>>>>> 141d50d63e7d867d99ad7295c505d97c442796b4
 - proto: CrateAmmoBoxVanyk
   entities:
   - uid: 1772
