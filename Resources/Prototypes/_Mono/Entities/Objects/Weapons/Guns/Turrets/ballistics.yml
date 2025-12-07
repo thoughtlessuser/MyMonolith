@@ -138,7 +138,7 @@
 
 - type: entity
   parent: BaseWeaponBallisticTurret
-  id: WeaponTurretPDV
+  id: BasicWeaponTurretPDV
   suffix: PDV
   components:
   - type: NpcFactionMember
@@ -147,7 +147,7 @@
 
 - type: entity
   parent: BaseWeaponBallisticTurret
-  id: WeaponTurretMD
+  id: BasicWeaponTurretMD
   suffix: Medical
   components:
   - type: NpcFactionMember
