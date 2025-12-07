@@ -40,5 +40,5 @@
           prefixCreator: '14'
       - type: StationJobs
         availableJobs:
-          pirate: [ 0, 0 ]
+          Pirate: [ 0, 0 ]
 
