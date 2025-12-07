@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2025 Arcticular
 # SPDX-FileCopyrightText: 2025 Arcticular1
 # SPDX-FileCopyrightText: 2025 Avalon
@@ -5,6 +6,8 @@
 #
 # SPDX-License-Identifier: MPL-2.0
 
+=======
+>>>>>>> 141d50d63e7d867d99ad7295c505d97c442796b4
 # Base Heavy Turret
 
 - type: entity

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2023 Cheackraze
 # SPDX-FileCopyrightText: 2023 Checkraze
 # SPDX-FileCopyrightText: 2023 Vera Aguilera Puerto
@@ -19,6 +20,8 @@
 #
 # SPDX-License-Identifier: MPL-2.0
 
+=======
+>>>>>>> 141d50d63e7d867d99ad7295c505d97c442796b4
 meta:
   format: 7
   category: Grid
@@ -27063,6 +27066,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 8.5,85.5
       parent: 1
+<<<<<<< HEAD
   - uid: 2701
     components:
     - type: Transform
@@ -27103,6 +27107,8 @@ entities:
     - type: Transform
       pos: -14.5,14.5
       parent: 1
+=======
+>>>>>>> 141d50d63e7d867d99ad7295c505d97c442796b4
 - proto: CrateAmmoBoxCharon
   entities:
   - uid: 1766
@@ -27115,6 +27121,7 @@ entities:
     - type: Transform
       pos: -13.5,15.5
       parent: 1
+<<<<<<< HEAD
 - proto: CrateAmmoBoxCyrexa
   entities:
   - uid: 1768
@@ -27144,6 +27151,8 @@ entities:
     - type: Transform
       pos: -14.5,13.5
       parent: 1
+=======
+>>>>>>> 141d50d63e7d867d99ad7295c505d97c442796b4
 - proto: CrateAmmoBoxVanyk
   entities:
   - uid: 1772
@@ -60659,7 +60668,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: WeaponTurretASM501
+- proto: WeaponTurretTovek
   entities:
   - uid: 4327
     components:
