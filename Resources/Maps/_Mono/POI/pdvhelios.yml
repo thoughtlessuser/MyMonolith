@@ -4,8 +4,13 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
+<<<<<<< HEAD
   time: 12/11/2025 01:52:45
   entityCount: 8031
+=======
+  time: 11/24/2025 07:34:17
+  entityCount: 8022
+>>>>>>> 3227470476c7c758a3b3af108892fbe54c8dd578
 maps: []
 grids:
 - 1
@@ -24824,40 +24829,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 8.5,85.5
       parent: 1
-- proto: CrateAmmoBox20mm
-  entities:
-  - uid: 1760
-    components:
-    - type: Transform
-      pos: -16.5,13.5
-      parent: 1
-  - uid: 1761
-    components:
-    - type: Transform
-      pos: -16.5,14.5
-      parent: 1
-  - uid: 1762
-    components:
-    - type: Transform
-      pos: -15.5,14.5
-      parent: 1
-  - uid: 1763
-    components:
-    - type: Transform
-      pos: -15.5,13.5
-      parent: 1
-- proto: CrateAmmoBox90mm
-  entities:
-  - uid: 1764
-    components:
-    - type: Transform
-      pos: -18.5,13.5
-      parent: 1
-  - uid: 1765
-    components:
-    - type: Transform
-      pos: -18.5,14.5
-      parent: 1
 - proto: CrateAmmoBoxCharon
   entities:
   - uid: 1766
@@ -24869,30 +24840,6 @@ entities:
     components:
     - type: Transform
       pos: -13.5,15.5
-      parent: 1
-- proto: CrateAmmoBoxCyrexa
-  entities:
-  - uid: 1768
-    components:
-    - type: Transform
-      pos: -12.5,14.5
-      parent: 1
-  - uid: 1769
-    components:
-    - type: Transform
-      pos: -13.5,14.5
-      parent: 1
-- proto: CrateAmmoBoxKargil
-  entities:
-  - uid: 1770
-    components:
-    - type: Transform
-      pos: -17.5,13.5
-      parent: 1
-  - uid: 1771
-    components:
-    - type: Transform
-      pos: -17.5,14.5
       parent: 1
 - proto: CrateAmmoBoxVanyk
   entities:
@@ -43112,17 +43059,34 @@ entities:
     - type: Transform
       pos: -10.5,16.5
       parent: 1
+- proto: SpawnPointPDVDenasvar
+  entities:
+  - uid: 10
+    components:
+    - type: Transform
+      pos: -4.5,64.5
+      parent: 1
+  - uid: 7577
+    components:
+    - type: Transform
+      pos: -6.5,65.5
+      parent: 1
+  - uid: 7846
+    components:
+    - type: Transform
+      pos: -5.5,63.5
+      parent: 1
+  - uid: 7853
+    components:
+    - type: Transform
+      pos: -3.5,62.5
+      parent: 1
 - proto: SpawnPointPDVInfiltrator
   entities:
   - uid: 7858
     components:
     - type: Transform
       pos: -4.5,65.5
-      parent: 1
-  - uid: 7859
-    components:
-    - type: Transform
-      pos: -4.5,64.5
       parent: 1
   - uid: 7860
     components:
@@ -43136,11 +43100,6 @@ entities:
       parent: 1
 - proto: SpawnPointPirate
   entities:
-  - uid: 7577
-    components:
-    - type: Transform
-      pos: -6.5,65.5
-      parent: 1
   - uid: 7578
     components:
     - type: Transform
@@ -43200,11 +43159,6 @@ entities:
     - type: Transform
       pos: -6.5,62.5
       parent: 1
-  - uid: 7846
-    components:
-    - type: Transform
-      pos: -5.5,63.5
-      parent: 1
   - uid: 7847
     components:
     - type: Transform
@@ -43214,11 +43168,6 @@ entities:
     components:
     - type: Transform
       pos: -3.5,63.5
-      parent: 1
-  - uid: 7853
-    components:
-    - type: Transform
-      pos: -3.5,62.5
       parent: 1
   - uid: 7854
     components:
@@ -51748,7 +51697,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: WeaponTurretASM501
+- proto: WeaponTurretTovek
   entities:
   - uid: 4327
     components:
